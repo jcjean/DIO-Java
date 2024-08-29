@@ -29,6 +29,12 @@ public class TiposVariaveis {
                                     + "\nCPF: " + cpf 
                                     + "\nSalário: " + salario);
         
+        //variaveis constantes e imutaveis
+        final double VALOR_DE_PI = 3.14;    //ao definir uma constante com o "final", garante que o valor seja imutável. 
+        VALOR_DE_PI = 10;   //por isso esta linha acusará erro
+                            
+        System.out.println(VALOR_DE_PI);
+
         scan.close();
     }
 }
