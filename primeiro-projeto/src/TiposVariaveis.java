@@ -1,3 +1,4 @@
+import java.util.Date;
 import java.util.Scanner;
 
 public class TiposVariaveis {
@@ -29,12 +30,15 @@ public class TiposVariaveis {
                                     + "\nCPF: " + cpf 
                                     + "\nSalário: " + salario);
         
-        //variaveis constantes e imutaveis
         final double VALOR_DE_PI = 3.14;    //ao definir uma constante com o "final", garante que o valor seja imutável. 
-        VALOR_DE_PI = 10;   //por isso esta linha acusará erro
+        //VALOR_DE_PI = 10;   //por isso esta linha acusará erro
                             
         System.out.println(VALOR_DE_PI);
 
+        char sexo = 'M';
+        boolean doadorDeOrgao = true; //ou false
+        Date diaAtual = new Date();
+        System.out.println("Dia de hoje: " +diaAtual);
         scan.close();
     }
 }
