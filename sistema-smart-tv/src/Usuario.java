@@ -21,7 +21,7 @@ public class Usuario {
             if(resposta.equalsIgnoreCase("sim")){
                 smartTv.ligarTV();
 
-                System.out.println("A Tv está ligada!\nVolume: " +vol+ "\ncanal: " + canal);
+                System.out.println("\nA Tv está ligada!\nVolume: " +vol+ "\ncanal: " + canal);
                 menu.mostraMenu();
             }else{
                 System.out.println("Ok! A Tv permanecerá desligada.");
