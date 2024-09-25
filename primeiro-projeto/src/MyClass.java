@@ -6,7 +6,8 @@ public class MyClass{
     }
 
     public void imprimir(String texto){
-        //Logica
+        texto = "Ola mundo!";
+        System.out.println(texto);
         //Neste caso naão precisa do return pois não será retornado nenhum resultado
     }
 
@@ -16,9 +17,9 @@ public class MyClass{
     }
 
     //este método não estará visivel para outras classes.
-    private void metodoPrivado(){
-
-    }
+    /*private double saldo(){
+    
+    }*/
 
     public void gravarCliente(String nome, String cpf, Integer idade){
         //este método tem a finalidade de gravar informações de um cliente.
