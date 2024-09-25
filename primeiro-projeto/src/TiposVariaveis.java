@@ -39,6 +39,12 @@ public class TiposVariaveis {
         boolean doadorDeOrgao = true; //ou false
         Date diaAtual = new Date();
         System.out.println("Dia de hoje: " +diaAtual);
+        System.out.printf("Sexo: %c%n", sexo);
+        if(doadorDeOrgao){
+            System.out.println("É doador de orgão!");
+        }else{
+            System.out.println("Não é doador!");
+        }
         scan.close();
     }
 }
