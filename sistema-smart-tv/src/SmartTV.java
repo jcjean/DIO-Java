@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class SmartTV{
     boolean ligada = false;
     int volume = 20;
@@ -17,22 +19,11 @@ public class SmartTV{
     public void diminuirVolume(){
         volume--;
     }
+
+    public void mudarCanal(){
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Digite o canal: ");
+        canal = scan.nextInt();
+    }
 }
-
-/*
- *  public boolean ligada(boolean state){
-        return state;
-    }
-
-    public int aumentarVolume(int vol){
-        return vol++;
-    }
-
-    public int diminuirVolume(int vol){
-        return vol--;
-    }
-
-    public int mudarCanal(int channel){
-        return channel;
-    }
- */
