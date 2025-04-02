@@ -21,7 +21,7 @@ public class SmartTV{
     }
 
     public void mudarCanal(){
-        Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in); 
 
         System.out.println("Digite o canal: ");
         canal = scan.nextInt();
