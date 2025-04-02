@@ -58,3 +58,5 @@ O Aluno Joao tem 21 anos.
 - **Encapsulamento**: Protege os atributos da classe, impedindo que sejam alterados diretamente.
 - **Validação**: Permite adicionar verificações antes de modificar os valores dos atributos.
 - **Manutenção**: Facilita a refatoração do código sem impactar diretamente quem usa a classe.
+
+**Caminho para os códigos utilizados:** [Get e Set](https://github.com/jcjean/DIO-Java/tree/main/escola)
