@@ -4,7 +4,9 @@ Enum é um tipo especial de classe onde os objetos são previamente criados, imu
 
 Usamos Enum quando o nosso modelo de negócio contém objetos de mesmo contexto que já existem de pré-estabelecida com a certeza de não haver tanta alteração de valores.
 
-[!IMPORTANT] Não confunda uma lista de constantes com enum.
+> [!IMPORTANT]
+> Não confunda uma lista de constantes com enum.
+
 
 Enquanto uma constante é uma variável de tipo com valor imutável, um enum é um conjunto de objetos já pre-definidos na aplicação.
 
