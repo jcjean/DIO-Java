@@ -19,6 +19,3 @@ Um `RestController` em Spring é, basicamente, uma classe contendo anotações e
 - `@RequestBody`: Converte um JSON para o tipo do objeto esperado como parâmetro no método.
 
 - `@PathVariable`: Determina que parte da URI será composta por parâmetros recebidos nas requisições.
-
-### Exemplos de uso:
-[Utilizando o @GetMapping](https://github.com/jcjean/DIO-Java/blob/main/my-first-web-api/src/main/java/dio/web_api/controller/UsuarioController.java)
