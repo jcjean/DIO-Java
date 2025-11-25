@@ -1,5 +1,5 @@
 # Dio - Java
-Repositório para armazenar todo o conteúdo do bootcamp Bradesco - Java Cloud Native. [Digital Innovation One](https://web.dio.me/track/bradesco-java-cloud-native)
+Repositório para armazenar todo o conteúdo do bootcamp CI&T - Backend com Java & AWS. [Digital Innovation One](https://web.dio.me/track/cit-backend-com-java-aws)
 
 ## 📚 Documentação
 - [Documentação Git](https://git-scm.com/docs/git/pt_BR)
